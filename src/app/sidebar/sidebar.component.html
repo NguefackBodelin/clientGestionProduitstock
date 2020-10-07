@@ -3,10 +3,10 @@
       <nav class="hidden-xs-down bg-faded sidebar">
           <ul class="nav nav-pills flex-column">
               <li class="nav-item">
-                  <a class="nav-link" routerLink="/dashboard" routerLinkAction="active">Dashboard</a>
+                  <a class="nav-link" [routerLink]="[{ outlets: { contentOutlet: 'dashboard' }}]" routerLinkAction="active">Dashboard</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" routerLink="/produit" routerLinkAction="active">Produit</a>
+                  <a class="nav-link" [routerLink]="[{ outlets: { contentOutlet: 'produit' }}]" routerLinkAction="active">Produit</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link">Contact</a>
@@ -25,21 +25,6 @@
               </li>
               <li class="nav-item">
                   <a class="nav-link">Contact 2</a>
-              </li>
-          </ul>
-
-          <ul class="nav nav-pills flex-column">
-             <li class="nav-item">
-                 <a class="nav-link">Home 6</a>
-             </li>
-              <li class="nav-item">
-                  <a class="nav-link">Home 7</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link">Portfolio 3</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link">Contact 7</a>
               </li>
           </ul>
       </nav>

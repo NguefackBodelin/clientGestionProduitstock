@@ -23,6 +23,7 @@
     "bootstrap": "^4.5.2",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
+    "ngx-cookie-service": "^10.0.1",
     "popper.js": "^1.12.5",
     "rxjs": "^6.6.3",
     "rxjs-compat": "^6.6.3",
